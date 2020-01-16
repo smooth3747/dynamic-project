@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    
+<body id="body">
+    <button id='red' align="center">Red</button>
+    <button id='green' align="center">Green</button>
+    <button id='blue' align="center">Blue</button>
+    <script>
+//        let fido = document.getElementsByTagName
+//        fido.addEventListener('click', changeColor);
+        
+        
+        let redButton = document.getElementById('red');
+        redButton.addEventListener('click', changeColorRed);
+        
+        let greenButton = document.getElementById('green');
+        greenButton.addEventListener('click', changeColorGreen);
+        
+        let blueButton = document.getElementById('blue');
+        blueButton.addEventListener('click', changeColorBlue);
+        
+        
+        function changeColorRed(){
+           document.body.style.backgroundColor = 'red';
+            
+        }   
+        
+        function changeColorGreen(){
+            document.body.style.backgroundColor = 'green';
+            
+        }   
+        
+        function changeColorBlue(){
+            document.body.style.backgroundColor = 'blue';
+            
+        }
+        
+        
+    </script>
+    
+</body>
+    
+</html>
